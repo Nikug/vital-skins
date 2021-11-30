@@ -34,11 +34,11 @@
   "Label Rounding": 2,
   "Large Padding": 10,
   "Lighten Screen": "22ffffff",
-  "Linear Slider": "ff1d2126",
+  "Linear Slider": "ff61afef",
   "Linear Slider Disabled": "ff1d2126",
   "Linear Slider Thumb": "ffd7dae0",
-  "Linear Slider Thumb Disabled": "ffffffff",
-  "Linear Slider Unselected": "ff61afef",
+  "Linear Slider Thumb Disabled": "ff555555",
+  "Linear Slider Unselected": "ff1d2126",
   "Modulation Button Dragging": "ff2c313c",
   "Modulation Button Selected": "ff2c313c",
   "Modulation Button Unselected": "ff23272e",
@@ -150,14 +150,15 @@
       "Widget Secondary 2": "66ff5252"
     },
     "Effects Filter": {
-      "Power Button On": "ffffb74d",
-      "Rotary Arc": "ffffb74d",
+      "Power Button On": "ffe5c07b",
+      "Rotary Arc": "ffe5c07b",
       "Widget Fill Center": -1,
-      "Widget Primary 1": "ffffb74d",
-      "Widget Primary 2": "ffff8180",
-      "Widget Secondary 1": "64ffb74d",
-      "Widget Secondary 2": "64ff8180",
-      "Widget Secondary Disabled": "ff4c4c4c"
+      "Widget Primary 1": "ffe5c07b",
+      "Widget Primary 2": "ffe5c07b",
+      "Widget Secondary 1": "64e5c07b",
+      "Widget Secondary 2": "64e5c07b",
+      "Widget Secondary Disabled": "ff4c4c4c",
+      "Linear Slider": "ffe5c07b"
     },
     "Envelope": {
       "Rotary Arc": "ffc678dd",
@@ -198,7 +199,8 @@
       "Widget Primary 1": "ffe5c07b",
       "Widget Primary 2": "ffe5c07b",
       "Widget Secondary 1": "64e5c07b",
-      "Widget Secondary 2": "64e5c07b"
+      "Widget Secondary 2": "64e5c07b",
+      "Linear Slider": "ffe5c07b"
     },
     "Flanger": {
       "Power Button On": "ffffd740",
@@ -243,7 +245,8 @@
       "Widget Primary 1": "ffc678dd",
       "Widget Primary 2": "ffc678dd",
       "Widget Secondary 1": "36c678dd",
-      "Widget Secondary 2": "36c678dd"
+      "Widget Secondary 2": "36c678dd",
+      "Linear Slider": "ffc678dd"
     },
     "Logo": {
       "Body Heading Background": "0",
