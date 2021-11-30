@@ -89,11 +89,11 @@
   "UI Button Text": "ffffffff",
   "Wavetable Draw Height": 0.15000000596046448,
   "Wavetable Draw Width": 0.7200000286102295,
-  "Wavetable Horizontal Angle": -0.23999999463558197,
-  "Wavetable Vertical Angle": 1.100000023841858,
+  "Wavetable Horizontal Angle": -0.5,
+  "Wavetable Vertical Angle": 1.2000000476837158,
   "Wavetable Y Offset": 0.05000000074505806,
-  "Widget Accent 1": "19aa88ff",
-  "Widget Accent 2": "19aa88ff",
+  "Widget Accent 1": "1961afef",
+  "Widget Accent 2": "1961afef",
   "Widget Background": "ff1d2125",
   "Widget Center Line": "ffffffff",
   "Widget Fill Boost": 0,
@@ -150,6 +150,7 @@
       "Widget Secondary 2": "66ff5252"
     },
     "Effects Filter": {
+      "Linear Slider": "ffe5c07b",
       "Power Button On": "ffe5c07b",
       "Rotary Arc": "ffe5c07b",
       "Widget Fill Center": -1,
@@ -157,8 +158,7 @@
       "Widget Primary 2": "ffe5c07b",
       "Widget Secondary 1": "64e5c07b",
       "Widget Secondary 2": "64e5c07b",
-      "Widget Secondary Disabled": "ff4c4c4c",
-      "Linear Slider": "ffe5c07b"
+      "Widget Secondary Disabled": "ff4c4c4c"
     },
     "Envelope": {
       "Rotary Arc": "ffc678dd",
@@ -193,14 +193,14 @@
       "Icon Button On": "ffe5c07b",
       "Icon Button On Hover": "fffdcf91",
       "Icon Button On Pressed": "ffffb74d",
+      "Linear Slider": "ffe5c07b",
       "Power Button On": "ffe5c07b",
       "Rotary Arc": "ffffb74d",
       "Widget Fill Center": -1,
       "Widget Primary 1": "ffe5c07b",
       "Widget Primary 2": "ffe5c07b",
       "Widget Secondary 1": "64e5c07b",
-      "Widget Secondary 2": "64e5c07b",
-      "Linear Slider": "ffe5c07b"
+      "Widget Secondary 2": "64e5c07b"
     },
     "Flanger": {
       "Power Button On": "ffffd740",
@@ -217,25 +217,27 @@
       "Popup Selector Background": "ff14181b",
       "Widget Accent 1": "ffff1744",
       "Widget Accent 2": "ffff5252",
-      "Widget Background": "ff161718",
+      "Widget Background": "ff1d2126",
       "Widget Line Width": 1.2000000476837158,
       "Widget Primary 1": "ff61afef",
-      "Widget Primary 2": "64aa88ff",
-      "Widget Secondary 1": "ff1de9b6",
-      "Widget Secondary 2": "ff80d8ff"
+      "Widget Primary 2": "6461afef",
+      "Widget Secondary 1": "ffc678dd",
+      "Widget Secondary 2": "ff61afef"
     },
     "Keyboard": {
-      "Widget Accent 1": "ff3d424c",
-      "Widget Accent 2": "32ffffff",
+      "Body": "ff2c313c",
+      "Widget Accent 1": "ff3d4451",
+      "Widget Accent 2": "33ffffff",
       "Widget Primary 1": "ff61afef",
       "Widget Rounded Corner": 4,
-      "Widget Secondary 1": "ff2c313c",
+      "Widget Secondary 1": "ff23272e",
       "Widget Secondary 2": "ff1d2126"
     },
     "Lfo": {
       "Icon Button On": "ff61afef",
       "Icon Button On Hover": "ffd7dae0",
       "Icon Button On Pressed": "ff477eab",
+      "Linear Slider": "ffc678dd",
       "Rotary Arc": "ffc678dd",
       "Text Component Background": "ff2c313c",
       "Widget Accent 1": "bbffffff",
@@ -245,8 +247,7 @@
       "Widget Primary 1": "ffc678dd",
       "Widget Primary 2": "ffc678dd",
       "Widget Secondary 1": "36c678dd",
-      "Widget Secondary 2": "36c678dd",
-      "Linear Slider": "ffc678dd"
+      "Widget Secondary 2": "36c678dd"
     },
     "Logo": {
       "Body Heading Background": "0",
@@ -327,10 +328,7 @@
     "Popup Browser": {
       "Border": "ff848789",
       "Icon Button Off": "ffaaacad",
-      "Icon Button Off Hover": "ffd3d6d6",
-      "UI Action Button": "ff1de9b6",
-      "UI Action Button Hover": "ff61afef",
-      "UI Action Button Press": "ff11cbb2"
+      "Icon Button Off Hover": "ffd3d6d6"
     },
     "Preset Browser": {
       "Button Font Size": 14,
