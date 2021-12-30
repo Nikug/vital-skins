@@ -1,6 +1,7 @@
 # Vital skins
 
-Go to the download page for easy download [https://nikug.github.io/vital-skins/](https://nikug.github.io/vital-skins/)
+A collection of [Vital](https://vital.audio/) custom skins created by me.
 
-- Atom one dark
-  - This is based on my vscode theme
+### Download here: [https://nikug.github.io/vital-skins/](https://nikug.github.io/vital-skins/)
+
+Downloading individual files from Github is pretty hard, so I created a handy download page. Download page was created with Github Pages and Tailwind CSS.
