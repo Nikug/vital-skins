@@ -4,7 +4,8 @@
   "description": "Go to the download page for easy download [https://nikug.github.io/vital-skins/](https://nikug.github.io/vital-skins/)",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch"
+    "start": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./index.css -o ./dist/output.css --minify"
   },
   "repository": {
     "type": "git",
