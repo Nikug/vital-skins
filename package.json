@@ -1,0 +1,22 @@
+{
+  "name": "vital-skins",
+  "version": "1.0.0",
+  "description": "Go to the download page for easy download [https://nikug.github.io/vital-skins/](https://nikug.github.io/vital-skins/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikug/vital-skins.git"
+  },
+  "author": "Nikug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikug/vital-skins/issues"
+  },
+  "homepage": "https://github.com/Nikug/vital-skins#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
