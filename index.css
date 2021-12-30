@@ -2,16 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  @apply text-6xl font-bold
+}
+
+h2 {
+  @apply text-3xl font-semibold
+}
+
+h3 {
+  @apply text-2xl
+}
+
 .shine {
-  @apply shadow-lg  shadow-blue-500/50
+  @apply shadow-lg  shadow-sky-500/50
 }
 
 .button {
-  @apply rounded py-2 px-4 bg-blue-600 hover:bg-blue-500 text-white shine transition-all
+  @apply rounded py-2 px-4 bg-sky-600 hover:bg-sky-500 text-white shine transition-all
 }
 
 .link {
-  @apply underline text-blue-600 hover:text-blue-500 font-semibold
+  @apply underline text-sky-500 hover:text-sky-400 font-semibold
+}
+.link-glow {
+  text-shadow: 0 0 1rem #7DD3FC77
 }
 
 .text-glow {
