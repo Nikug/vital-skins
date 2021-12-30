@@ -84,10 +84,30 @@
                 which was a port from Atom, to Vital.
               </p>
               <div class="py-4 flex flex-col gap-4">
-                <div class="overflow-hidden rounded">
+                <div class="overflow-hidden rounded" onclick="openImageView()">
                   <img
-                    class="w-full"
+                    class="w-full cursor-pointer"
                     src="public/images/placeholder.jpg"
+                    alt="a cat sleeping"
+                  />
+                  <p class="italic text-center">
+                    (this image is a placeholder)
+                  </p>
+                </div>
+                <div class="overflow-hidden rounded" onclick="openImageView()">
+                  <img
+                    class="w-full cursor-pointer"
+                    src="public/images/placeholder-portrait.jpg"
+                    alt="a cat sleeping"
+                  />
+                  <p class="italic text-center">
+                    (this image is a placeholder)
+                  </p>
+                </div>
+                <div class="overflow-hidden rounded" onclick="openImageView()">
+                  <img
+                    class="w-full cursor-pointer"
+                    src="public/images/placeholder-panorama.jpg"
                     alt="a cat sleeping"
                   />
                   <p class="italic text-center">
@@ -113,4 +133,18 @@
       <a href="#" class="mt-32 hover:text-gray-400 text-glow">Back to top</a>
     </footer>
   </body>
+  <div id="image-view" onclick="closeImageView()" style="display: none">
+    <div class="inset-0 fixed bg-black opacity-50"></div>
+    <div class="inset-0 fixed p-16">
+      <div class="w-full h-full flex justify-center items-center">
+        <img
+          class="max-h-full object-contain"
+          src=""
+          alt=""
+          onclick="stopBubbling()"
+        />
+      </div>
+    </div>
+  </div>
+  <script src="index.js" type="text/javascript"></script>
 </html>
