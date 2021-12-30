@@ -23,7 +23,7 @@ h3 {
 }
 
 .link {
-  @apply underline text-sky-500 hover:text-sky-400 font-semibold
+  @apply underline text-sky-500 hover:text-sky-400 font-semibold decoration-slate-500 decoration-2
 }
 .link-glow {
   text-shadow: 0 0 1rem #7DD3FC77
@@ -31,4 +31,8 @@ h3 {
 
 .text-glow {
   text-shadow: 0 0 1.5rem #e5e7eb77
+}
+
+.vital-glow {
+  filter: drop-shadow(0 0 1rem #e5e7eb77)
 }
