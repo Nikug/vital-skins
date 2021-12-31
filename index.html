@@ -86,9 +86,32 @@
               <div class="py-4 flex flex-col gap-4">
                 <div class="overflow-hidden rounded">
                   <img
-                    class="w-full"
+                    class="w-full cursor-pointer"
                     src="public/images/placeholder.jpg"
                     alt="a cat sleeping"
+                    onclick="openImageView()"
+                  />
+                  <p class="italic text-center">
+                    (this image is a placeholder)
+                  </p>
+                </div>
+                <div class="overflow-hidden rounded">
+                  <img
+                    class="w-full cursor-pointer"
+                    src="public/images/placeholder-portrait.jpg"
+                    alt="a cat sleeping"
+                    onclick="openImageView()"
+                  />
+                  <p class="italic text-center">
+                    (this image is a placeholder)
+                  </p>
+                </div>
+                <div class="overflow-hidden rounded">
+                  <img
+                    class="w-full cursor-pointer"
+                    src="public/images/placeholder-panorama.jpg"
+                    alt="a cat sleeping"
+                    onclick="openImageView()"
                   />
                   <p class="italic text-center">
                     (this image is a placeholder)
@@ -113,4 +136,42 @@
       <a href="#" class="mt-32 hover:text-gray-400 text-glow">Back to top</a>
     </footer>
   </body>
+  <div id="image-view" onclick="closeImageView()" style="display: none">
+    <div class="inset-0 fixed bg-black opacity-80"></div>
+    <div class="inset-0 fixed p-16">
+      <div class="relative w-full h-full flex justify-center items-center">
+        <img
+          class="max-h-full object-contain"
+          src=""
+          alt=""
+          onclick="stopBubbling()"
+        />
+        <div
+          class="
+            absolute
+            top-0
+            right-0
+            text-xl
+            cursor-pointer
+            hover:text-gray-400
+            text-glow
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8"
+            viewBox="0 0 18 18"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js" type="text/javascript"></script>
 </html>
