@@ -1,8 +1,18 @@
 let selectedImage = null;
 const imageViewId = "#image-view";
 
+window.onload = function () {
+  window.addEventListener("keyup", (keyEvent) => {
+    if (keyEvent.key === "Escape") {
+      closeImageView();
+    }
+  });
+};
+
 function openImageView() {
   const source = this.event.target.src;
+  if (!source) return;
+
   const alt = this.event.target.alt;
   const imageView = document.querySelector(imageViewId);
   const image = imageView.querySelector("img");
