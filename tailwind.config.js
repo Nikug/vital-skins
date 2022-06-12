@@ -14,6 +14,9 @@ module.exports = {
           light: colors.gray["100"],
           dark: colors.gray["300"],
         },
+        line: {
+          DEFAULT: colors.gray["600"],
+        },
       },
     },
   },

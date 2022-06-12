@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="text-center py-8 text-text-light">
+  <div class="text-center py-8">
     <div class="flex justify-center gap-4">
       <a href="https://vital.audio/">
         <img
