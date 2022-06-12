@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { downloads } from "./downloads";
+import { downloads } from "../downloads";
 import DownloadItem from "./DownloadItem.vue";
 </script>
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import InstallInstructions from "./components/InstallInstructions.vue";
+import InstallInstructions from "./InstallInstructions.vue";
 import SocialLinks from "./SocialLinks.vue";
 import DownloadContainer from "./DownloadContainer.vue";
 </script>

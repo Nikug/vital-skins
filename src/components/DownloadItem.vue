@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DownloadableItem } from "./types";
+import type { DownloadableItem } from "../types";
 interface Props {
   item: DownloadableItem;
 }

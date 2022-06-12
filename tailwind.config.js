@@ -18,6 +18,7 @@ module.exports = {
         },
         text: {
           light: colors.gray["100"],
+          "light-hover": colors.gray["400"],
           dark: colors.gray["300"],
         },
         line: {
