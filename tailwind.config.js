@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         bg: {
           DEFAULT: colors.gray["900"],
+          dark: colors.black,
         },
         text: {
           light: colors.gray["100"],
