@@ -6,7 +6,7 @@ import DownloadContainer from "./DownloadContainer.vue";
 
 <template>
   <div class="flex justify-center px-4">
-    <div class="w-full max-w-[800px] flex flex-col gap-16">
+    <div class="w-full max-w-content flex flex-col gap-16">
       <SocialLinks />
       <InstallInstructions />
       <DownloadContainer />

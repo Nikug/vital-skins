@@ -6,6 +6,12 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,ts}"],
   theme: {
     extend: {
+      width: {
+        content: "800px",
+      },
+      maxWidth: {
+        content: "800px",
+      },
       colors: {
         bg: {
           DEFAULT: colors.gray["900"],
