@@ -1,7 +1,32 @@
+/* eslint-disable no-undef */
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: ["**.{html,js}"],
+  content: ["./index.html", "./src/**/*.{vue,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        content: "800px",
+      },
+      maxWidth: {
+        content: "800px",
+      },
+      colors: {
+        bg: {
+          DEFAULT: colors.gray["900"],
+          dark: colors.black,
+        },
+        text: {
+          light: colors.gray["100"],
+          "light-hover": colors.gray["400"],
+          dark: colors.gray["300"],
+        },
+        line: {
+          DEFAULT: colors.gray["600"],
+        },
+      },
+    },
   },
   plugins: [],
 };
