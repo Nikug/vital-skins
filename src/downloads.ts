@@ -11,14 +11,14 @@ export const downloads: DownloadableItem[] = [
       pretty low contrast and cool colors that aren't too in your
       face.
     `,
-    downloadLink: "/skins/Atom One Dark.vitalskin",
+    downloadLink: "skins/Atom One Dark.vitalskin",
     images: [
       {
-        src: "/images/atom one dark pro vital skin.png",
+        src: "images/atom one dark pro vital skin.png",
         alt: "Atom one dark pro darker main view",
       },
       {
-        src: "/images/atom one dark pro vital skin fx.png",
+        src: "images/atom one dark pro vital skin fx.png",
         alt: "Atom one dark pro darker effects view",
       },
     ],
